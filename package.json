@@ -1,0 +1,22 @@
+{
+  "name": "fastify_mongod_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^6.0.1",
+    "boom": "^7.3.0",
+    "fastify": "^3.29.4",
+    "fastify-swagger": "^5.2.0",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
